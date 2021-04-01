@@ -13,13 +13,13 @@ import Business from "../../assets/images/Business.jpeg";
 export default function Courses() {
   return (
     <div className="Courses">
-      <CardDeck className="p-3">
+      <CardDeck className="p-5">
         <Card className="mx-3">
           <Card.Img variant="top" className="h-50 p-2" src={RedCross} />
           <Card.Body>
             <Card.Title>CPR/1ST AID - WEFA</Card.Title>
             <Card.Text>Content goes here</Card.Text>
-            <Button>More</Button>
+            <Button>Find Out More</Button>
           </Card.Body>
         </Card>
 
@@ -28,7 +28,7 @@ export default function Courses() {
           <Card.Body>
             <Card.Title>Myers Briggs Type Indicator</Card.Title>
             <Card.Text>Content goes here</Card.Text>
-            <Button>More</Button>
+            <Button>Find Out More</Button>
           </Card.Body>
         </Card>
         <Card className="mx-3">
@@ -36,18 +36,18 @@ export default function Courses() {
           <Card.Body>
             <Card.Title>Online Course Development</Card.Title>
             <Card.Text>Content goes here</Card.Text>
-            <Button>More</Button>
+            <Button>Find Out More</Button>
           </Card.Body>
         </Card>
       </CardDeck>
 
-      <CardDeck className="p-3">
+      <CardDeck className="p-5">
         <Card className="mx-3">
           <Card.Img variant="top" className="h-50 p-2" src={Dentistry} />
           <Card.Body>
             <Card.Title>Continuing Education Dentistry</Card.Title>
             <Card.Text>Content goes here</Card.Text>
-            <Button>More</Button>
+            <Button>Find Out More</Button>
           </Card.Body>
         </Card>
         <Card className="mx-3">
@@ -55,7 +55,7 @@ export default function Courses() {
           <Card.Body>
             <Card.Title>Business Seminars</Card.Title>
             <Card.Text>Content goes here</Card.Text>
-            <Button>More</Button>
+            <Button>Find Out More</Button>
           </Card.Body>
         </Card>
         <Card className="mx-3">
@@ -63,7 +63,7 @@ export default function Courses() {
           <Card.Body>
             <Card.Title>Medical Emergency kit and First aid kits</Card.Title>
             <Card.Text>Content goes here</Card.Text>
-            <Button>More</Button>
+            <Button>Find Out More</Button>
           </Card.Body>
         </Card>
       </CardDeck>
