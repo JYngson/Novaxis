@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 10vh;
   background-color: #3e3b3b;
   color: #fff;
+  &__footer {
+    margin: 0;
+  }
 }

@@ -1,0 +1,20 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  &__navspace {
+    height: 70px;
+  }
+  &__agnes {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    height: 50vh;
+  }
+  &__norbert {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    height: 50vh;
+  }
+}

@@ -4,7 +4,7 @@ import { Navbar, Hero, Courses, Contact, Footer } from "../../components";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Courses />
       <Contact />
