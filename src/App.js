@@ -1,14 +1,16 @@
 import React from "react";
-import { Navbar, Hero, Courses } from "./components";
+import { Navbar, Home } from "./components";
+import { Switch, Route } from "react-router-dom";
 import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Courses />
+      <Home />
+      <Switch>
+        <Route to="/"></Route>
+      </Switch>
     </div>
   );
 }

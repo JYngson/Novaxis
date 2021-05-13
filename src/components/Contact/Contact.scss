@@ -1,0 +1,19 @@
+.Contact {
+  background: #002366;
+  color: #fff;
+  display: flex;
+  height: 75vh;
+  &__picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  &__cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+}
