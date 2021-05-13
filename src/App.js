@@ -7,9 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
   return (
     <div className="App">
-      <Home />
       <Switch>
-        <Route to="/"></Route>
+        <Route exact path="/" component={Home}></Route>
+        <Route path = "/courses" component = {}></Route>
       </Switch>
     </div>
   );
