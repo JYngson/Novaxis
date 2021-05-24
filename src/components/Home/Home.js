@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar, Hero, Courses, Contact, Footer } from "../../components";
+import { Hero, Courses, Contact, Footer, About } from "../../components";
 
 export default function Home() {
   return (
     <div>
-      {/* <Navbar /> */}
       <Hero />
+      <About />
       <Courses />
       <Contact />
       <Footer />

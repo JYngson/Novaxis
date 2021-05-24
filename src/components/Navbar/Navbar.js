@@ -13,10 +13,10 @@ export default function Navbar() {
           <Link to="/" className="Navbar__menuItem">
             Home
           </Link>
-          <li className="Navbar__menuItem">Programs</li>
           <Link to="/About" className="Navbar__menuItem">
             About
           </Link>
+          <li className="Navbar__menuItem">Programs</li>
           <li className="Navbar__menuItem">Contact</li>
         </ul>
       </div>
