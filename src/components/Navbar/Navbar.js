@@ -6,7 +6,9 @@ export default function Navbar() {
   return (
     <div className="Navbar">
       <div className="Navbar__logoBox">
-        <h2 className="Navbar__logo">Novaxis</h2>
+        <Link to="/" className="Navbar__logo">
+          Novaxis
+        </Link>
       </div>
       <div className="Navbar__menu">
         <ul className="Navbar__menuList">
@@ -16,7 +18,9 @@ export default function Navbar() {
           <Link to="/About" className="Navbar__menuItem">
             About
           </Link>
-          <li className="Navbar__menuItem">Programs</li>
+          <Link to="/Programs" className="Navbar__menuItem">
+            Programs
+          </Link>
           <li className="Navbar__menuItem">Contact</li>
         </ul>
       </div>

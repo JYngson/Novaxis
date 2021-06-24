@@ -13,7 +13,7 @@ import Business from "../../assets/images/Business.jpeg";
 export default function Courses() {
   return (
     <div className="Courses">
-      <h1>Courses & Seminars</h1>
+      <h1 className="Courses__header">Courses & Seminars</h1>
       <CardDeck className="p-5">
         <Card className="mx-3">
           <Card.Img variant="top" className="h-50 p-2" src={RedCross} />

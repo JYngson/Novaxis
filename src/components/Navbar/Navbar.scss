@@ -15,6 +15,12 @@
   &__logo {
     margin: 0;
     cursor: pointer;
+    color: black;
+    font-size: 36px;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
   }
   &__menu {
     display: flex;
